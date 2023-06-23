@@ -82,10 +82,27 @@
   filter:grayscale(1) hue-rotate(90deg);
 }
 
+/**solution: */
+.ex-8-img{
+  transition: all 2s;
+}
+.ex-8-img:hover{
+  filter:grayscale(1) hue-rotate(90deg);
+  border-radius: 10px;
+}
 
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
+}
+/**solution: */
+.ex-9-img{
+  transition: all 2s;
+}
+.ex-9-img:hover{
+  filter:grayscale(1) hue-rotate(90deg);
+  border-radius: 10px;
+  scale: 1.1;
 }
 /**solution: */
 .ex-10-icon {
