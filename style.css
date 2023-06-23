@@ -163,3 +163,19 @@
   height: 20px;
 }
 /**solution: */
+.ex-12-button:hover .ex-12-top-white {
+  animation: w-div-top-move 2s linear;
+}
+@keyframes w-div-top-move {
+  0% {left: 20%;}
+  50% {left: calc(100% - 60px);}
+  100% {left: 20%;}
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: moveBottomWhite 2s linear;
+}
+@keyframes moveBottomWhite {
+  0% {right: 20%}
+  50% {right: calc(100% - 60px);}
+  100% {right: 20%;}
+}
