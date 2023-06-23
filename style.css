@@ -104,11 +104,19 @@
   border-radius: 10px;
   scale: 1.1;
 }
-/**solution: */
+
 .ex-10-icon {
   font-size: 60px;
 }
 /**solution: */
+
+.ex-10-icon{
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 .ex-11-icon {
   font-size: 60px;
 }
