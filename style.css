@@ -26,33 +26,48 @@
   height: 100px;
   background: red;
 }
+/**solution: */
+.ex-3-square{
+  transition: all 2s;
+}
+.ex-3-square:hover{
+  transition: all 2s;
+  border-radius: 50%;
+}
+
 .ex-4-square {
   width: 100px;
   height: 100px;
   background: red;
 }
+/**solution: */
 .ex-5-square {
   margin: 20px;
   width: 60px;
   height: 60px;
   background: red;
 }
+/**solution: */
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {
   width: 500px;
 }
+/**solution: */
 
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
 }
+/**solution: */
 .ex-10-icon {
   font-size: 60px;
 }
+/**solution: */
 .ex-11-icon {
   font-size: 60px;
 }
+/**solution: */
 .ex-12-button,
 .ex-13-button {
   position: relative;
@@ -85,3 +100,4 @@
   width: 60px;
   height: 20px;
 }
+/**solution: */
